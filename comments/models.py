@@ -1,5 +1,6 @@
 from django.db import models
 
+from tour.models import Tour
 from datetime import datetime  
 from core import settings
 from django.db.models import Avg
@@ -10,7 +11,6 @@ class Rating(models.Model):
     user_id = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     rated_object_id = models.ForeignKey(Tour, on_delete=models.CASCADE)  
     rating = models.PositiveIntegerField()
-
     class Meta:  
         verbose_name = "Рейтинг"
         verbose_name_plural = "Рейтинги"
