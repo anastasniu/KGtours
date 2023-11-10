@@ -45,8 +45,8 @@ INSTALLED_APPS = [
     'accounts',
     'comments',
     'tour',
-    'userprofile',
     
+
 ]
 
 MIDDLEWARE = [
