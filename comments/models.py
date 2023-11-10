@@ -1,5 +1,5 @@
 from django.db import models
-
+from tours.models import Tour
 from datetime import datetime  
 from core import settings
 from django.db.models import Avg
