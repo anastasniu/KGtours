@@ -45,8 +45,6 @@ INSTALLED_APPS = [
     'accounts',
     'comments',
     'tour',
-    
-
 ]
 
 MIDDLEWARE = [
