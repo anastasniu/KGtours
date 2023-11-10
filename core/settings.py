@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 
     # Apps
     'accounts',
+    'comments',
     
 ]
 
@@ -156,5 +157,5 @@ SIMPLE_JWT = {
     'REFRESH_TOKEN_LIFETIME': timedelta(days=7),
 }
 
-# AUTH_USER_MODEL = 'accounts.User'
+AUTH_USER_MODEL = 'accounts.User'
 
