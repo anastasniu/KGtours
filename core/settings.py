@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     # Apps
     'accounts',
     'comments',
+    'tour',
+    'userprofile',
     
 ]
 
